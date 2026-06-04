@@ -192,22 +192,13 @@ body.dark .bg-glow-blob-2 {
     transform: scale(1.02);
 }
 
-.logo-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo-img {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-    color: white;
-}
-
-.logo-icon svg {
-    width: 22px;
-    height: 22px;
-    fill: currentColor;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: var(--transition-fast);
 }
 
 .logo-text span.blue {
